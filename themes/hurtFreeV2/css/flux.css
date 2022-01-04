@@ -1141,6 +1141,17 @@ textarea {
   font-size: 12pt;
 }
 
+@media screen and (max-width: 425px) {
+  .server_status {
+    font-size: 5pt;
+  }
+  @media screen and (max-width: 320px) {
+    .server_status {
+      font-size: 2pt;
+    }
+  }
+}
+
 .box {
   text-align: center;
 }
