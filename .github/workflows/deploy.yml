@@ -14,4 +14,4 @@ jobs:
           server: ${{ secrets.SERVER }}
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: /royal-ro.na4u.ru/www
+          server-dir: /royal-ro.na4u.ru/www/
