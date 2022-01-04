@@ -53,4 +53,3 @@ $sth  = $server->connection->getStatement($sql);
 $sth->execute($bind);
 
 $chars = $sth->fetchAll();
-?>
