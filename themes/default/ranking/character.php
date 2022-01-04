@@ -38,7 +38,7 @@
 		</tr>
 		<?php $topRankType = !is_null($jobClass) ? $className : 'character' ?>
 		<?php for ($i = 0; $i < $limit; ++$i) : ?>
-			<tr><?php if (!isset($chars[$i])) echo ' class="empty-row"';
+			<tr<?php if (!isset($chars[$i])) echo ' class="empty-row"';
 				if ($i === 0) echo ' class="top-ranked" title="<strong>' . htmlspecialchars($chars[$i]->char_name) . '</strong> первое место в топе!"' ?>>
 				<td align="right"><?php echo number_format($i + 1) ?></td>
 				<?php if (isset($chars[$i])) : ?>
@@ -71,8 +71,8 @@
 					<?php else : ?>
 						<td colspan="8"></td>
 					<?php endif ?>
-			</tr>
-		<?php endfor ?>
+					</tr>
+				<?php endfor ?>
 	</table>
 <?php else : ?>
 	<p>Персонажи в рейтинге отсутствуют. <a href="javascript:history.go(-1)">Назад</a>.</p>
