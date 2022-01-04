@@ -29,6 +29,13 @@ h6 {
   background-size: 100% 100%;
 }
 
+@media screen and (max-width: 425px) {
+  .hero-body {
+    display: contents !important;
+    align-items: unset !important;
+  }
+}
+
 #footer {
   padding: 20px;
 }
