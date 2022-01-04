@@ -2,5 +2,5 @@ User-agent: *
 Disallow: /
 Crawl-Delay: 5
 
-#Sitemap: https://webstudio-synthetica.ru/sitemap.xml
-#Host: https://webstudio-synthetica.ru/
+#Sitemap: https://royal-ro.na4u.ru/sitemap.xml
+#Host: https://royal-ro.na4u.ru/
