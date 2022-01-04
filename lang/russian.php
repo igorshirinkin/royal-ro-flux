@@ -733,7 +733,7 @@ return array(
 	'WoeInfo'                 => "Below are the WoE hours for %s.  These hours are subject to change at anytime, but let's hope not.",
 	'WoeServerTimeInfo'       => 'Время сервера:',
 	'WoeServerLabel'          => 'Серверы',
-	'WoeTimesLabel'           => 'War of Emperium Times',
+	'WoeTimesLabel'           => 'Расписание',
 	'WoeNotScheduledInfo'     => 'В настоящий момент расписания Войны за Империум нет.',
 
 	// Module: contactform
@@ -840,4 +840,3 @@ return array(
 	'WCTitleLabel'			=> 'Web Команды',
 
 );
-?>
