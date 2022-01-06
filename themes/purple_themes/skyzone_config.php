@@ -7,7 +7,7 @@ $config['navbar_source'] = 1;
 
 //error_reporting(0);
 $config['server_name'] = "Royal Ragnarok";
-$config['server_introduction'] = "Welcome to Ragnarok Online Experience the Legendary Game. ";
+$config['server_introduction'] = "Добро пожаловать в Ragnarok Online - легендарную игру. ";
 $config['server_sub_intro'] = "MMORPG Ragnarok Online";
 
 
