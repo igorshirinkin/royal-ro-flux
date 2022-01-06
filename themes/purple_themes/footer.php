@@ -76,9 +76,9 @@
 					<span>Copyright <script>
 							document.write(new Date().getFullYear());
 						</script> &copy; Gravity Co., Ltd. & Lee Myoungjin (Studio DTDS) All Rights Reserved.</span>
-					<span>Design By <a href="https://forum.cronus-emulator.com/profile/78797-mihael/">Mihael</a></span>
-					<span>Coded by <a href="https://skyzonehosting.net" target="_blank">Skyzone</a></span><br>
 					<p class="text-muted">
+						<span>Неофициальный сервер Ragnarok Online</span>
+						<span>© Copyright <?php echo date("Y"); ?> RoyalRO </span>
 						<?php if (Flux::config('ShowCopyright')) : ?>
 							Powered by <a href="https://github.com/rathena/FluxCP" target="_blank">FluxCP</a>
 						<?php endif ?>
