@@ -52,7 +52,7 @@
 					<li><a href="#download">Downloads</a></li>
 					<li>
 						<?php if (count(Flux::$appConfig->get('ThemeName', false)) > 1) : ?>
-							<a>Неофициальный сервер Ragnarok Online. © Copyright 2022 RoyalRO:
+							<a>
 								<select name="preferred_theme" onchange="updatePreferredTheme(this)" style="color:#555555;">
 									<?php foreach (Flux::$appConfig->get('ThemeName', false) as $themeName) : ?>
 										<option value="<?php echo htmlspecialchars($themeName) ?>" <?php if ($session->theme == $themeName) echo ' selected="selected"' ?>><?php echo htmlspecialchars($themeName) ?></option>
