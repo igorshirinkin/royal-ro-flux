@@ -75,10 +75,10 @@
 				<div class="copyright">
 					<span>Copyright <script>
 							document.write(new Date().getFullYear());
-						</script> &copy; Gravity Co., Ltd. & Lee Myoungjin (Studio DTDS) All Rights Reserved.</span>
+						</script> &copy; Gravity Co., Ltd. & Lee Myoungjin (Studio DTDS) All Rights Reserved.</span><br>
+					<span>Неофициальный сервер Ragnarok Online</span>
+					<span>&copy; Copyright <?php echo date("Y"); ?> Royal Ragnarok </span>
 					<p class="text-muted">
-						<span>Неофициальный сервер Ragnarok Online</span>
-						<span>© Copyright <?php echo date("Y"); ?> RoyalRO </span>
 						<?php if (Flux::config('ShowCopyright')) : ?>
 							Powered by <a href="https://github.com/rathena/FluxCP" target="_blank">FluxCP</a>
 						<?php endif ?>

@@ -2705,13 +2705,6 @@ footer ul a:visited {
   display: inline-block;
 }
 
-.footer-bottom .copyright span::after {
-  content: "|";
-  display: inline-block;
-  padding: 0 1rem 0 1.2rem;
-  color: rgba(255, 255, 255, 0.1);
-}
-
 .footer-bottom .copyright span:last-child::after {
   display: none;
 }
