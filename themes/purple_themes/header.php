@@ -33,7 +33,6 @@
 	<link rel="stylesheet" href="<?php echo $this->themePath('css/vendor.css') ?>">
 	<link rel="stylesheet" href="<?php echo $this->themePath('css/main.css') ?>">
 	<link rel="stylesheet" href="<?php echo $this->themePath('css/choco_main.css') ?>">
-	<link rel="stylesheet" href="<?php echo $this->themePath('css/font-awesome/css/font-awesome.css') ?>">
 
 	<!-- script -->
 	<script src="<?php echo $this->themePath('js/modernizr.js') ?>"></script>
