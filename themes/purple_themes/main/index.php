@@ -173,6 +173,7 @@
 </section>
 <!-- end about -->
 
+<?php /*
 <!-- pricing -->
 <section id="donation">
 	<div class="row pricing-content">
@@ -265,6 +266,7 @@
 	</div> <!-- end flex-container -->
 </section>
 <!-- end shops -->
+*/ ?>
 
 <!-- download -->
 <section id="download">
