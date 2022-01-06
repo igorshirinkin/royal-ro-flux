@@ -127,33 +127,24 @@ if (!($params->get('module') == 'main' && $params->get('action') == 'index')) {
 	);
 }
 
-$config['social_links'] = array(
-	'youtube' => 'Yeoxq3v73Qw', #API CALLS
-);
-
-$config['social_api'] = array(
-	'youtube' => 'Yeoxq3v73Qw', #API CALLS
-);
-
 //SHOP
-// $config['shops'] = array(
-// 	array(
-// 		'2358.gif',
-// 		'20$',
-// 		'A winged dress that is said to have been worn by an angel. It makes you feel very lucky when you wear it. LUK + 4 Impossible to refine this item.',
-// 	),
-// 	array(
-// 		'15026.gif',
-// 		'20$',
-// 		'A winged dress that is said to have been worn by an angel. It makes you feel very lucky when you wear it. LUK + 4 Impossible to refine this item.',
-// 	),
-// 	array(
-// 		'15138.gif',
-// 		'20$',
-// 		'A winged dress that is said to have been worn by an angel. It makes you feel very lucky when you wear it. LUK + 4 Impossible to refine this item.',
-// 	),
-// );
-
+$config['shops'] = array(
+	array(
+		'2358.gif',
+		'20$',
+		'A winged dress that is said to have been worn by an angel. It makes you feel very lucky when you wear it. LUK + 4 Impossible to refine this item.',
+	),
+	array(
+		'15026.gif',
+		'20$',
+		'A winged dress that is said to have been worn by an angel. It makes you feel very lucky when you wear it. LUK + 4 Impossible to refine this item.',
+	),
+	array(
+		'15138.gif',
+		'20$',
+		'A winged dress that is said to have been worn by an angel. It makes you feel very lucky when you wear it. LUK + 4 Impossible to refine this item.',
+	),
+);
 
 #DOWNLOAD LINKS
 $config['downloads'] = array(

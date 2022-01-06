@@ -21,10 +21,6 @@
 						<span class="icon-users" aria-hidden="true"></span>
 						Register Account
 					</a>
-					<a href="https://www.youtube.com/watch?v=<?php echo $config['social_api']['youtube']; ?>" data-lity class="button stroke">
-						<span class="icon-play" aria-hidden="true"></span>
-						Youtube Video
-					</a>
 				</div>
 
 			</div>
