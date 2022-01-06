@@ -98,31 +98,31 @@ if (!($params->get('module') == 'main' && $params->get('action') == 'index')) {
 			'current',
 			'smoothscroll',
 			'#home',
-			'Home',
+			'Главная',
 		),
 		array(
 			'',
 			'smoothscroll',
 			'#information',
-			'Information',
+			'О сервере',
 		),
 		array(
 			'',
 			'smoothscroll',
 			'#donation',
-			'Donation',
+			'Пожертвования',
 		),
 		array(
 			'',
 			'smoothscroll',
 			'#shop',
-			'Shop',
+			'Магазин',
 		),
 		array(
 			'',
 			'smoothscroll',
 			'#download',
-			'Download',
+			'Загрузки',
 		),
 	);
 }
