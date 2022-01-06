@@ -8,7 +8,7 @@ $config['navbar_source'] = 1;
 //error_reporting(0);
 $config['server_name'] = "Royal Ragnarok";
 $config['server_introduction'] = "Welcome to Ragnarok Online Experience the Legendary Game. ";
-$config['server_sub_intro'] = "MMORPG Ragnarok Online.";
+$config['server_sub_intro'] = "MMORPG Ragnarok Online";
 
 
 $ONLINE = $info['players_online'];
@@ -27,28 +27,28 @@ if ($session->isLoggedIn()) {
 	#display to user already login
 	$config['nav_panel'] = array(
 		array(
-			'MY ACCOUNT', //NAV TITLE
+			'Мой аккаунт',
 			'',  //USE ONLY FOR MODAL
-			$this->url('account', 'view'), //URL LINK
+			$this->url('account', 'view'),
 		),
 		array(
-			'LOGOUT', //NAV TITLE
-			'',  //USE ONLY FOR MODAL
-			$this->url('account', 'logout'), //URL LINK
+			'Выйти',
+			'',
+			$this->url('account', 'logout'),
 		),
 
 	);
 } else {
 	$config['nav_panel'] = array(
 		array(
-			'LOGIN PANEL', //NAV TITLE
-			'',  //USE ONLY FOR MODAL
-			$this->url('account', 'login'), //URL LINK
+			'Логин',
+			'',
+			$this->url('account', 'login'),
 		),
 		array(
-			'REGISTER', //NAV TITLE
-			'',  //USE ONLY FOR MODAL
-			$this->url('account', 'create'), //URL LINK
+			'Регистрация',
+			'',
+			$this->url('account', 'create'),
 		),
 
 	);
@@ -56,17 +56,14 @@ if ($session->isLoggedIn()) {
 
 #display to user who not login
 if (!($params->get('module') == 'main' && $params->get('action') == 'index')) {
-	//Display kabag nasa ibang page
 	$config['div_class'] = array(
 		'div_value' => 'mymain2',
 	);
 } else {
-	//Walang Display kapag nasa Main/Index Page
 	$config['div_class'] = array(
 		'div_value' => '',
 	);
 }
-
 
 if (!($params->get('module') == 'main' && $params->get('action') == 'index')) {
 	$config['nav_index'] = array(
@@ -74,13 +71,13 @@ if (!($params->get('module') == 'main' && $params->get('action') == 'index')) {
 			'',
 			'',
 			$this->url('main'),
-			'Home',
+			'Главная',
 		),
 		array(
 			'',
 			' ',
 			$this->url('donate'),
-			'Donation',
+			'Пожертвования',
 		),
 		array(
 			'',
@@ -92,7 +89,7 @@ if (!($params->get('module') == 'main' && $params->get('action') == 'index')) {
 			'',
 			'',
 			$this->url('pages', 'information'),
-			'SERVER INFORMATION',
+			'Информация о сервере',
 		),
 	);
 } else {
@@ -130,7 +127,6 @@ if (!($params->get('module') == 'main' && $params->get('action') == 'index')) {
 	);
 }
 
-//SOCIAL LINKS
 $config['social_links'] = array(
 	'youtube' => 'Yeoxq3v73Qw', #API CALLS
 );
@@ -140,23 +136,23 @@ $config['social_api'] = array(
 );
 
 //SHOP
-$config['shops'] = array(
-	array(
-		'2358.gif',
-		'20$',
-		'A winged dress that is said to have been worn by an angel. It makes you feel very lucky when you wear it. LUK + 4 Impossible to refine this item.',
-	),
-	array(
-		'15026.gif',
-		'20$',
-		'A winged dress that is said to have been worn by an angel. It makes you feel very lucky when you wear it. LUK + 4 Impossible to refine this item.',
-	),
-	array(
-		'15138.gif',
-		'20$',
-		'A winged dress that is said to have been worn by an angel. It makes you feel very lucky when you wear it. LUK + 4 Impossible to refine this item.',
-	),
-);
+// $config['shops'] = array(
+// 	array(
+// 		'2358.gif',
+// 		'20$',
+// 		'A winged dress that is said to have been worn by an angel. It makes you feel very lucky when you wear it. LUK + 4 Impossible to refine this item.',
+// 	),
+// 	array(
+// 		'15026.gif',
+// 		'20$',
+// 		'A winged dress that is said to have been worn by an angel. It makes you feel very lucky when you wear it. LUK + 4 Impossible to refine this item.',
+// 	),
+// 	array(
+// 		'15138.gif',
+// 		'20$',
+// 		'A winged dress that is said to have been worn by an angel. It makes you feel very lucky when you wear it. LUK + 4 Impossible to refine this item.',
+// 	),
+// );
 
 
 #DOWNLOAD LINKS
