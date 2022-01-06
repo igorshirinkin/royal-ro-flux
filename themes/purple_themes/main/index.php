@@ -63,7 +63,6 @@
 <!-- end home -->
 
 
-
 <!-- about -->
 <section id="information">
 

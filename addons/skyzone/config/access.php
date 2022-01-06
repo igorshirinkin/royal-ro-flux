@@ -8,5 +8,4 @@ return array(
 	'features' => array(
 		// None.
 	)
-)
-?>
+);

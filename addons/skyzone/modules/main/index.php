@@ -7,6 +7,3 @@ $sql = "SELECT COUNT(char_id) AS players_online FROM {$server->charMapDatabase}.
 $stmt = $server->connection->getStatement($sql);
 $stmt->execute();
 $info['players_online'] = $stmt->fetch()->players_online;
-
-?>
- 
