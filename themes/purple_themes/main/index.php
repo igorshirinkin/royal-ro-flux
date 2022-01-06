@@ -54,7 +54,7 @@
 
 	<div class="home-scrolldown">
 		<a href="#information" class="scroll-icon smoothscroll">
-			<span>View More</span>
+			<span>О сервере</span>
 			<i class="icon-arrow-right" aria-hidden="true"></i>
 		</a>
 	</div>
