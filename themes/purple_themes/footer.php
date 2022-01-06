@@ -65,12 +65,6 @@
 
 			</div> <!-- end footer-site-links -->
 
-			<div class="col-four md-1-2 tab-full footer-subscribe">
-				<div class="fb-page" data-href="https://www.facebook.com/<?php echo $config['community']['facebook']; ?>/" data-tabs="timeline" data-width="400" data-height="250" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true">
-					<blockquote cite="https://www.facebook.com/<?php echo $config['community']['facebook']; ?>/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/<?php echo $config['community']['facebook']; ?>/"><?php echo $config['community']['facebook']; ?></a></blockquote>
-				</div>
-			</div> <!-- end footer-subscribe -->
-
 		</div> <!-- /row -->
 	</div> <!-- end footer-main -->
 
