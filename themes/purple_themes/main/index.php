@@ -13,22 +13,67 @@
 					<?php echo $config['server_sub_intro']; ?> |
 					<span>Online Player: <?php echo number_format($config['online'][0]); ?></span>
 				</h3>
-				<h1 data-aos="fade-up">
-					<?php echo $config['server_introduction']; ?>
-				</h1>
-				<div class="buttons" data-aos="fade-up">
-					<a href="<?php echo $this->url('account', 'create'); ?>" class="button stroke">
-						<span class="icon-users" aria-hidden="true"></span>
-						Register Account
-					</a>
-				</div>
-
+				<span id="icon-status" class="tooltip" data-position="bottom" data-delay="50" data-tooltip="<?php echo $hurtLogin ?>">
+					<span class="<?php echo $hurtLoginText ?>"><img src="<?php echo $this->themePath($hurtLoginIcon); ?>" alt="status" height="20px" width="20px"></span>
+					<span class="<?php echo $hurtLoginText ?>">
+						LOGIN SERVER
+					</span>
+				</span>
+			</div>
+			<div class="level-item">
+				<?php
+				if ($loginServerUp) {
+					$hurtChar     = "Char Server работает!";
+					$hurtCharIcon = "img/check.png";
+					$hurtCharText = "has-text-success";
+				} else {
+					$hurtChar     = "Char Server не работает!";
+					$hurtCharIcon = "img/close.png";
+					$hurtCharText = "has-text-danger";
+				}
+				?>
+				<span id="icon-status" class="tooltip" data-position="bottom" data-delay="50" data-tooltip="<?php echo $hurtChar ?>">
+					<span class="<?php echo $hurtCharText ?>"><img src="<?php echo $this->themePath($hurtCharIcon); ?>" alt="status" height="20px" width="20px"></span>
+					<span class="<?php echo $hurtCharText ?>">
+						CHAR SERVER
+					</span>
+				</span>
+			</div>
+			<div class="level-item">
+				<?php
+				if ($loginServerUp) {
+					$hurtMap     = "Map Server работает!";
+					$hurtMapIcon = "img/check.png";
+					$hurtMapText = "has-text-success";
+				} else {
+					$hurtMap     = "Map Server не работает!";
+					$hurtMapIcon = "img/close.png";
+					$hurtMapText = "has-text-danger";
+				}
+				?>
+				<span id="icon-status" class="tooltip" data-position="bottom" data-delay="50" data-tooltip="<?php echo $hurtMap ?>">
+					<span class="<?php echo $hurtMapText ?>"><img src="<?php echo $this->themePath($hurtMapIcon); ?>" alt="status" height="20px" width="20px"></span>
+					<span class="<?php echo $hurtMapText ?>">
+						MAP SERVER
+					</span>
+				</span>
+			</div>
+			<h1 data-aos="fade-up">
+				<?php echo $config['server_introduction']; ?>
+			</h1>
+			<div class="buttons" data-aos="fade-up">
+				<a href="<?php echo $this->url('account', 'create'); ?>" class="button stroke">
+					<span class="icon-users" aria-hidden="true"></span>
+					Register Account
+				</a>
 			</div>
 
-			<div class="home-image-right">
-				<img src="<?php echo $this->themePath('images/iphone-app-470.png'); ?>" srcset="<?php echo $this->themePath('images/iphone-app-470.png'); ?> 1x, <?php echo $this->themePath('images/iphone-app-940.png'); ?> 2x" data-aos="fade-up">
-			</div>
 		</div>
+
+		<div class="home-image-right">
+			<img src="<?php echo $this->themePath('images/iphone-app-470.png'); ?>" srcset="<?php echo $this->themePath('images/iphone-app-470.png'); ?> 1x, <?php echo $this->themePath('images/iphone-app-940.png'); ?> 2x" data-aos="fade-up">
+		</div>
+	</div>
 
 	</div> <!-- end home-content -->
 
