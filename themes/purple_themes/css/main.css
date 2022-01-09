@@ -1614,6 +1614,19 @@ html[data-useragent*="MSIE 10.0"] .home-scrolldown,
   justify-content: space-between;
 }
 
+.level img {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.has-text-success {
+  color: #48c774 !important;
+}
+
+.has-text-danger {
+  color: #f14668 !important;
+}
+
 /* vertical animation */
 
 @-webkit-keyframes animate-it {
