@@ -19,20 +19,19 @@
 
 				<ul class="footer-social-list">
 					<li>
-						<a href="#"><i class="fas fa-facebook-square"></i></a>
+						<a href="#"><i class="fa fa-facebook-square"></i></a>
 					</li>
 					<li>
-						<a href="#"><i class="fas fa-twitter"></i></a>
+						<a href="#"><i class="fa fa-twitter"></i></a>
 					</li>
 					<li>
-						<a href="#"><i class="fas fa-behance"></i></a>
+						<a href="#"><i class="fa fa-behance"></i></a>
 					</li>
 					<li>
-						<a href="#"><i class="fas fa-dribbble"></i></a>
+						<a href="#"><i class="fa fa-dribbble"></i></a>
 					</li>
 					<li>
-						<i></i>
-						<a href="#"><i class="fas fa-instagram"></i></a>
+						<a href="#"><i class="fa fa-instagram"></i></a>
 					</li>
 				</ul>
 
