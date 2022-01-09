@@ -1579,7 +1579,8 @@ h1.intro-header::before {
 
 .home-scrolldown a:hover,
 .home-scrolldown a:focus {
-  color: #44c455 !important;
+  color: #48c774 !important;
+  text-decoration: none !important;
 }
 
 html[data-useragent*="MSIE 10.0"] .home-scrolldown,
