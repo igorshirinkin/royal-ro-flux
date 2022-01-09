@@ -170,17 +170,14 @@ include $this->themePath('src/status.php', true);
 			<h1 class="intro-header" data-aos="fade-up"><img src="<?php echo $this->themePath('images/girl-bg.png'); ?>" /></h1>
 		</div>
 		<div class="col-eight">
-			<h1>A server to cater your Intense desire for gaming.</h1>
+			<h1>Сервер, который удовлетворит Ваше желание играть.</h1>
 			<p class="lead" data-aos="fade-up">
-				The time has come once again to experience the legendary MMORPG Ragnarok Online. Continue the legend and relive the glorious past that can never be extinguished!
+				Пришло время вновь испытать легендарную MMORPG Ragnarok Online. Продолжите легенду и переживите славное прошлое, которое никогда не погаснет!
 			</p>
 			<p class="lead" data-aos="fade-up">
-				On the edge of Midgard’s trends
-				Ragnarok Online is set on 999x/999x MID experience rates, 99/70 base-job levels for Classic Gaming. The server is running under Ep. 5.0 Yuno.
+				Сервер настроен по классической механике Pre-Renewal и работает под управлением Ep. 13.3+ - El Dicastes.
 
-				A Gamers’ Haven
-				The server provides showcase features to give its players their best gaming experience. Automated and Hosted events are lined-up with exciting and inimitable concepts.
-				Battle grounds for Player versus Player combats are set on per level category.
+				Royal Ragnarok - это бесплатный сервер, ориентированный на классический стиль игры. Мы работаем с самым быстрым оборудованием, чтобы обеспечить Вам наилучшие игровые впечатления во время путешествия по Мидгарду. Подробнее о нашей игровой механике смотрите в таблице ниже.
 			</p>
 		</div>
 	</div>
@@ -190,80 +187,81 @@ include $this->themePath('src/status.php', true);
 			<div class="bgrid feature" data-aos="fade-up">
 				<center><span class="icon"><img src="<?php echo $this->themePath('images/icons/rok.png'); ?>" /> </span></center>
 				<div class="service-content">
-					<center>
-						<h3>SERVER RATES:</h3>
-					</center>
-					<h5>- <font color="46305e">Max Level/Job</font> : xxx
-						<h5>- <font color="46305e">Max Status</font> : xxx
-							<h5>- <font color="46305e">Max ASPD</font> : xxx
-								<h5>- <font color="46305e">Rates</font> : xxk/xxk/xxxx
-									<h5>- <font color="46305e">Drops Equips Normais</font> : xx%
-										<h5>- <font color="46305e">Drops Equips MVP</font> : xx%
-											<h5>- <font color="46305e">Drops Cartas Normais</font> : xx%
-												<h5>- <font color="46305e">Drops Cartas MVP</font> : xx%
-													<h5>- <font color="46305e">Server Type</font> : Revo Classic
-													</h5>
+					<h3 class="text-center text-uppercase">рейты сервера:</h3>
+					<h5 class="text-uppercase"> - рейты в будни : 7x/7x/5x</h5>
+					<h5 class="text-uppercase"> - рейты в выходные : 10x/10x/10x</h5>
+					<h3 class="text-center text-uppercase">статические рейты:</h3>
+					<h5 class="text-uppercase"> - дроп рейты эквип : 10x</h5>
+					<h5 class="text-uppercase"> - дроп рейты карты : 10x (0.10%)</h5>
+					<h5 class="text-uppercase"> - MVP и Минибосс карты : 1x (0.01%)</h5>
+					<h5 class="text-uppercase"> - кормление питомцев и гомункулов: 10x</h5>
+					<h5 class="text-uppercase"> - квесты: 20x</h5>
+					<h5 class="text-uppercase"> - тип сервера : PRE-RENEWAL</h5>
 				</div>
 			</div> <!-- /bgrid -->
 
 			<div class="bgrid feature" data-aos="fade-up">
 				<center><span class="icon"> <img src="<?php echo $this->themePath('images/icons/nid.png'); ?>" /> </span></center>
 				<div class="service-content">
-					<center>
-						<h3>EPISODE RELEASE:</h3>
-					</center>
-					<h5>- <font color="46305e">EPISODE 4</font> : Incluindo uma que permite fabricar um Chapéu Visual inédito.
-						<h5>- <font color="46305e">EPISODE 5</font> : Transforme alguns dos chapéus clássicos em Itens Visuais.
-							<h5>- <font color="46305e">EPISODE 6</font> : Aprimore alguns dos equipamentos clássicos e torne-os ainda mais poderosos.
-								<h5>- <font color="46305e">EPISODE 7</font> : Monstros de Nv 146+ para maior desafio.
-								</h5>
+					<h3 class="text-center text-uppercase">Серверные настройки:</h3>
+					<h5 class="text-uppercase"> - Эпизод: 13.3+ - El Dicastes</h5>
+					<h5 class="text-uppercase"> - Механика : Pre-Renewal</h5>
+					<h5 class="text-uppercase"> - Эмулятор : rAthena</h5>
+					<h5 class="text-uppercase"> - Максимальный уровень : 99/70</h5>
+					<h5 class="text-uppercase"> - Максимальные статы : 99</h5>
+					<h5 class="text-uppercase"> - Максимальный ASPD : 190</h5>
+					<h5 class="text-uppercase"> - Инстант каст : 150 dex</h5>
+					<h5 class="text-uppercase"> - Серверное время : Europe/Moscow</h5>
+					<h5 class="text-uppercase"> - Автолут для Гомункулов/Наёмников отключен</h5>
+					<h5 class="text-uppercase"> - Использование автокликеров автожора - разрешено</h5>
 				</div>
 			</div> <!-- /bgrid -->
 
 			<div class="bgrid feature" data-aos="fade-up">
 				<center><span class="icon"><img src="<?php echo $this->themePath('images/icons/fad.png'); ?>" /> </span></center>
 				<div class="service-content">
-					<center>
-						<h3>SERVER PROTECTION:</h3>
-					</center>
-					<h5>- <font color="46305e">Guepard Shield 3.0</font> : Utilizamos o que tem de melhor no mercado com relação a Proteções Internas e Externas em nosso servidor, para que você jogador possa desfrutar de sua jogatina sem medo ou problemas.
-						<h5>- <font color="46305e">@LGP</font> : A Addon Lite Graphics Plugin também está ativa e atualizada dentro do jogo.
-						</h5>
+					<h3 class="text-center text-uppercase">Защита на сервере:</h3>
+					<h5 class="text-uppercase"> - guard : </h5>
+					<h5 class="text-uppercase"> - guard : </h5>
+					<h5 class="text-uppercase"> - guard : </h5>
+					<h5 class="text-uppercase"> - guard : </h5>
+					<h5 class="text-uppercase"> - guard : </h5>
+					<h5 class="text-uppercase"> - guard : </h5>
+					<h5 class="text-uppercase"> - guard : </h5>
+					<h5 class="text-uppercase"> - guard : </h5>
+					<h5 class="text-uppercase"> - guard : </h5>
+					<h5 class="text-uppercase"> - guard : </h5>
 				</div>
 			</div> <!-- /bgrid -->
 
 			<div class="bgrid feature" data-aos="fade-up">
 				<center><span class="icon"><img src="<?php echo $this->themePath('images/icons/emp.png'); ?>" /> </span></center>
 				<div class="service-content">
-					<center>
-						<h3>WAR OF EMPERIUM</h3>
-					</center>
-					<h5>- <font color="46305e">Horários</font> : Segunda, Quarta, Sexta, Domingo das 19:00 às 20:00 horas.
-						<h5>- <font color="46305e">Premiações</font> : Ao clã vencedor da Guerra do Emperium será enviado 1 Baú da Woe contendo grandes prêmiações.
-						</h5>
+					<h3 class="text-center text-uppercase">Информация о WoE:</h3>
+					<h5 class="text-uppercase"> - woe : </h5>
+					<h5 class="text-uppercase"> - woe : </h5>
+					<h5 class="text-uppercase"> - woe : </h5>
+
 				</div>
 			</div> <!-- /bgrid -->
 
 			<div class="bgrid feature" data-aos="fade-up">
 				<center><span class="icon"><img src="<?php echo $this->themePath('images/icons/shu.png'); ?>" /> </span></center>
 				<div class="service-content">
-					<center>
-						<h3>GVG & PVP EVENT</h3>
-					</center>
-					<h5>- <font color="46305e">@irbg</font> : Comando @irbg ativo no servidor, mais dinâmismo na campal.
-						<h5>- <font color="46305e">Emblemas</font> : Troque seus emblemas por stuffs, visuais, vip entre outras prêmiações.
-						</h5>
+					<h3 class="text-center text-uppercase">Информация:</h3>
+					<h5 class="text-uppercase"> - info : </h5>
+					<h5 class="text-uppercase"> - info : </h5>
+					<h5 class="text-uppercase"> - info : </h5>
 				</div>
 			</div> <!-- /bgrid -->
 
 			<div class="bgrid feature" data-aos="fade-up">
 				<center><span class="icon"> <img src="<?php echo $this->themePath('images/icons/vot.png'); ?>" /> </span></center>
 				<div class="service-content">
-					<center>
-						<h3>VOTE FOR POINTS</h3>
-					</center>
-					<h5>- <font color="46305e">Vote</font> : Ganhe pontos votando diariamente em nosso servidor, e troque por itens visuais, vip, pontos de cash entre outras prêmiações.
-					</h5>
+					<h3 class="text-center text-uppercase">Информация:</h3>
+					<h5 class="text-uppercase"> - info : </h5>
+					<h5 class="text-uppercase"> - info : </h5>
+					<h5 class="text-uppercase"> - info : </h5>
 				</div>
 			</div> <!-- /bgrid -->
 
