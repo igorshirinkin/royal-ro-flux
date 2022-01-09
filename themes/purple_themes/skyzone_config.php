@@ -11,15 +11,15 @@ $config['server_introduction'] = "Добро пожаловать в Ragnarok On
 $config['server_sub_intro'] = "MMORPG Ragnarok Online";
 
 
-$ONLINE = $info['players_online'];
+// $ONLINE = $info['players_online'];
 
-if ($ONLINE == 0) {
-	$config['status_online'] = array('./img/7427.png');
-	$config['online'] = array($ONLINE);
-} else {
-	$config['status_online'] = array('./img/7429.png');
-	$config['online'] = array($ONLINE);
-}
+// if ($ONLINE == 0) {
+// 	$config['status_online'] = array('./img/7427.png');
+// 	$config['online'] = array($ONLINE);
+// } else {
+// 	$config['status_online'] = array('./img/7429.png');
+// 	$config['online'] = array($ONLINE);
+// }
 
 
 #define custom navigation instead of using flux
