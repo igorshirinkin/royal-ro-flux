@@ -16,9 +16,21 @@ include $this->themePath('src/status.php', true);
 					<span>Online Player: <?php echo number_format($config['online'][0]); ?></span>
 				</h3>
 
+				<div class="level-item">
+					<span class="has-text-white">
+						<?php if ($gameServer['playersOnline'] > 0) : ?>
+							Игроков в сети:
+							<span class="counter_online"><?php echo $gameServer['playersOnline'] ?></span>
+						<?php else : ?>
+							Игроков в сети:
+							<span class="counter_offline"><?php echo $gameServer['playersOnline'] ?></span>
+						<?php endif; ?>
+					</span>
+				</div>
+
 				<?php foreach ($serverStatus as $privServerName => $gameServers) : ?>
 					<?php foreach ($gameServers as $serverName => $gameServer) : ?>
-						<nav class="level">
+						<nav class="level" data-aos="fade-up">
 							<div class="level-item">
 								<?php
 								if ($loginServerUp) {
@@ -93,7 +105,7 @@ include $this->themePath('src/status.php', true);
 								<div id="icon-status" data-position="bottom" data-delay="50">
 									<span class="<?php echo $woeText ?>"><img src="<?php echo $this->themePath($woeIcon); ?>" alt="status" height="20px" width="20px"></span>
 									<span class="<?php echo $woeText ?>">
-										Война за Империум
+										WoE
 									</span>
 								</div>
 							</div>
