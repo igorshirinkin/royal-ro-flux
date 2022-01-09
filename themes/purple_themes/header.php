@@ -47,7 +47,7 @@
 	?>
 
 	<!-- header -->
-	<header id="header" class="row" style="">
+	<header id="header" class="row">
 		<div class="header-logo">
 			<!--<img src="img/logo.png" alt="" title="" />-->
 			<a href="<?php echo $this->url('main'); ?>"><?php echo $config['server_name']; ?></a>
