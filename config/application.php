@@ -213,7 +213,7 @@ return array(
 	'FontResolvedColour'		=> 'green',
 	'FontPendingColour'			=> 'orange',
 	'FontClosedColour'			=> 'darkgrey',
-	'SDEnableCreditRewards'		=> true,					// Show option in Service Desk to reward player X credits for reporting bugs/abuse/etc.
+	'SDEnableCreditRewards'		=> false,					// Show option in Service Desk to reward player X credits for reporting bugs/abuse/etc.
 	'SDCreditReward'			=> 10,						// Number of credits to award account.
 
 	// Discord Webhooks
