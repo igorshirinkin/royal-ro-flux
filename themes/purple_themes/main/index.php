@@ -22,19 +22,19 @@ include $this->themePath('src/status.php', true);
 							<div class="level-item">
 								<?php
 								if ($loginServerUp) {
-									$hurtLogin 	   = "Login Server работает!";
-									$hurtLoginIcon = "img/check.png";
-									$hurtLoginText = "has-text-success";
+									$loginServer 	   = "Login Server работает!";
+									$loginIcon 		   = "img/check.png";
+									$loginText 		   = "has-text-success";
 								} else {
-									$hurtLogin     = "Login Server не работает!";
-									$hurtLoginIcon = "img/close.png";
-									$hurtLoginText = "has-text-danger";
+									$loginServer     = "Login Server не работает!";
+									$loginIcon = "img/close.png";
+									$loginText = "has-text-danger";
 								}
 								?>
 
-								<span id="icon-status" class="tooltip" data-position="bottom" data-delay="50" data-tooltip="<?php echo $hurtLogin ?>">
-									<span class="<?php echo $hurtLoginText ?>"><img src="<?php echo $this->themePath($hurtLoginIcon); ?>" alt="status" height="20px" width="20px"></span>
-									<span class="<?php echo $hurtLoginText ?>">
+								<span id="icon-status" data-position="bottom" data-delay="50" data-tooltip="<?php echo $loginServer ?>">
+									<span class="<?php echo $loginText ?>"><img src="<?php echo $this->themePath($loginIcon); ?>" alt="status" height="20px" width="20px"></span>
+									<span class="<?php echo $loginText ?>">
 										LOGIN SERVER
 									</span>
 								</span>
@@ -42,18 +42,18 @@ include $this->themePath('src/status.php', true);
 							<div class="level-item">
 								<?php
 								if ($loginServerUp) {
-									$hurtChar     = "Char Server работает!";
-									$hurtCharIcon = "img/check.png";
-									$hurtCharText = "has-text-success";
+									$charServer     = "Char Server работает!";
+									$charIcon 	    = "img/check.png";
+									$charText 	    = "has-text-success";
 								} else {
-									$hurtChar     = "Char Server не работает!";
-									$hurtCharIcon = "img/close.png";
-									$hurtCharText = "has-text-danger";
+									$charServer     = "Char Server не работает!";
+									$charIcon 	    = "img/close.png";
+									$charText 	    = "has-text-danger";
 								}
 								?>
-								<span id="icon-status" class="tooltip" data-position="bottom" data-delay="50" data-tooltip="<?php echo $hurtChar ?>">
-									<span class="<?php echo $hurtCharText ?>"><img src="<?php echo $this->themePath($hurtCharIcon); ?>" alt="status" height="20px" width="20px"></span>
-									<span class="<?php echo $hurtCharText ?>">
+								<span id="icon-status" data-position="bottom" data-delay="50">
+									<span class="<?php echo $charText ?>"><img src="<?php echo $this->themePath($charIcon); ?>" alt="status" height="20px" width="20px"></span>
+									<span class="<?php echo $charText ?>">
 										CHAR SERVER
 									</span>
 								</span>
@@ -61,18 +61,18 @@ include $this->themePath('src/status.php', true);
 							<div class="level-item">
 								<?php
 								if ($loginServerUp) {
-									$hurtMap     = "Map Server работает!";
-									$hurtMapIcon = "img/check.png";
-									$hurtMapText = "has-text-success";
+									$mapServer     = "Map Server работает!";
+									$mapIcon 	   = "img/check.png";
+									$mapText 	   = "has-text-success";
 								} else {
-									$hurtMap     = "Map Server не работает!";
-									$hurtMapIcon = "img/close.png";
-									$hurtMapText = "has-text-danger";
+									$mapServer     = "Map Server не работает!";
+									$mapIcon 	   = "img/close.png";
+									$mapText 	   = "has-text-danger";
 								}
 								?>
-								<span id="icon-status" class="tooltip" data-position="bottom" data-delay="50" data-tooltip="<?php echo $hurtMap ?>">
-									<span class="<?php echo $hurtMapText ?>"><img src="<?php echo $this->themePath($hurtMapIcon); ?>" alt="status" height="20px" width="20px"></span>
-									<span class="<?php echo $hurtMapText ?>">
+								<span id="icon-status" data-position="bottom" data-delay="50">
+									<span class="<?php echo $mapText ?>"><img src="<?php echo $this->themePath($mapIcon); ?>" alt="status" height="20px" width="20px"></span>
+									<span class="<?php echo $mapText ?>">
 										MAP SERVER
 									</span>
 								</span>
@@ -81,18 +81,18 @@ include $this->themePath('src/status.php', true);
 							<div class="level-item">
 								<?php
 								if ($gameServer['woeStatus'] == 1) {
-									$hurtWoe     = "ПРИСОЕДИНЯЙТЕСЬ К БИТВЕ!!!";
-									$hurtWoeIcon = "img/woeon.png";
-									$hurtWoeText = "has-text-success";
+									$woe     = "ПРИСОЕДИНЯЙТЕСЬ К БИТВЕ!!!";
+									$woeIcon = "img/woeon.png";
+									$woeText = "has-text-success";
 								} else {
-									$hurtWoe     = "Война за Империум сейчас недоступна!";
-									$hurtWoeIcon = "img/woeoff.png";
-									$hurtWoeText = "has-text-danger";
+									$woe     = "Война за Империум сейчас недоступна!";
+									$woeIcon = "img/woeoff.png";
+									$woeText = "has-text-danger";
 								}
 								?>
-								<div id="icon-status" class="tooltip" data-position="bottom" data-delay="50" data-tooltip="<?php echo $hurtWoe ?>">
-									<span class="<?php echo $hurtWoeText ?>"><img src="<?php echo $this->themePath($hurtWoeIcon); ?>" alt="status" height="20px" width="20px"></span>
-									<span class="<?php echo $hurtWoeText ?>">
+								<div id="icon-status" data-position="bottom" data-delay="50">
+									<span class="<?php echo $woeText ?>"><img src="<?php echo $this->themePath($woeIcon); ?>" alt="status" height="20px" width="20px"></span>
+									<span class="<?php echo $woeText ?>">
 										Война за Империум
 									</span>
 								</div>
@@ -107,12 +107,6 @@ include $this->themePath('src/status.php', true);
 									</span>
 								</div>
 							<?php endif ?>
-							<div class="level-item">
-								<span class="has-text-white">
-									Всего аккаунтов:
-									<span class="counter_acc"><?php echo number_format($infoStats['accountsStats']) ?></span>
-								</span>
-							</div>
 						</nav>
 					<?php endforeach ?>
 				<?php endforeach ?>

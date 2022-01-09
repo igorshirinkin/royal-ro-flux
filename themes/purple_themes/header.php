@@ -7,7 +7,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="">
 	<meta name="author" content="">
 
@@ -36,7 +36,7 @@
 	<link rel="stylesheet" href="<?php echo $this->themePath('css/choco_main.css') ?>">
 
 	<!-- script -->
-	<script src="<?php echo $this->themePath('js/modernizr.js') ?>"></script>
+	<!-- <script src="<?php echo $this->themePath('js/modernizr.js') ?>"></script> -->
 	<script src="<?php echo $this->themePath('js/pace.min.js') ?>"></script>
 
 </head>
