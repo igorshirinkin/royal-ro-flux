@@ -1627,6 +1627,14 @@ html[data-useragent*="MSIE 10.0"] .home-scrolldown,
   color: #f14668 !important;
 }
 
+.counter_online {
+  color: #48c774;
+}
+
+.counter_offline {
+  color: #f14668;
+}
+
 /* vertical animation */
 
 @-webkit-keyframes animate-it {
