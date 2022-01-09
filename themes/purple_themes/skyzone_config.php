@@ -83,7 +83,7 @@ if (!($params->get('module') === 'main' && $params->get('action') === 'index')) 
 			'',
 			'',
 			$this->url('staff'),
-			'Staff',
+			'Администрация',
 		),
 		array(
 			'',
