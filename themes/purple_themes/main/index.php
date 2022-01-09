@@ -46,7 +46,7 @@ include $this->themePath('src/status.php', true);
 							</div>
 							<div class="level-item">
 								<?php
-								if ($charServerUp) {
+								if ($loginServerUp) {
 									$charServer     = "Char Server работает!";
 									$charIcon 	    = "img/check.png";
 									$charText 	    = "has-text-success";
@@ -65,7 +65,7 @@ include $this->themePath('src/status.php', true);
 							</div>
 							<div class="level-item">
 								<?php
-								if ($mapServerUp) {
+								if ($loginServerUp) {
 									$mapServer     = "Map Server работает!";
 									$mapIcon 	   = "img/check.png";
 									$mapText 	   = "has-text-success";
