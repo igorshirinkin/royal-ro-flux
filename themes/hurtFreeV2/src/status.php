@@ -61,4 +61,3 @@ if (Flux::config('HidePermBannedStats')) {
 $sth = $server->connection->getStatement($sql);
 $sth->execute();
 $infoStats['accountsStats'] += $sth->fetch()->total;
-?>
