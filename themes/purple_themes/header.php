@@ -100,7 +100,7 @@
 	<!-- /header -->
 
 	<?php if (!($params->get('module') == 'main' && $params->get('action') == 'index')) { ?>
-		<section id="home" style="padding-top:100px; padding-button:100px;" data-parallax="scroll" data-image-src="<?php echo $this->themePath('images/hero-bg.jpg') ?>" data-natural-width=3000 data-natural-height=2000>
+		<section id="home" style="padding-top:100px; padding-bottom:100px;" data-parallax="scroll" data-image-src="<?php echo $this->themePath('images/hero-bg.jpg') ?>" data-natural-width=3000 data-natural-height=2000>
 			<div class="container" style="background-color:#FFF; border-radius:10px; padding:10px;">
 				<?php if (Flux::config('DebugMode') && @gethostbyname(Flux::config('ServerAddress')) == '127.0.0.1') : ?>
 					<p class="notice">Please change your <strong>ServerAddress</strong> directive in your application config to your server's real address (e.g., myserver.com).</p>
