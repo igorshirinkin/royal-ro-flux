@@ -18,6 +18,8 @@ include $this->themePath('src/status.php', true);
 
 				<?php foreach ($serverStatus as $privServerName => $gameServers) : ?>
 					<?php foreach ($gameServers as $serverName => $gameServer) : ?>
+						<?php var_dump($gameServers);
+						die; ?>
 						<nav class="level">
 							<div class="level-item">
 								<?php
