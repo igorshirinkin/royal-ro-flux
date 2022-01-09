@@ -1,4 +1,6 @@
-<?php if (!defined('FLUX_ROOT')) exit; ?>
+<?php if (!defined('FLUX_ROOT')) exit;
+include $this->themePath('src/status.php', true);
+?>
 
 <!-- home -->
 <section id="home" data-parallax="scroll" data-image-src="<?php echo $this->themePath('images/hero-bg.jpg') ?>" data-natural-width=3000 data-natural-height=2000>
