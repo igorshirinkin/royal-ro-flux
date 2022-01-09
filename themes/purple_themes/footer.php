@@ -1,5 +1,5 @@
 <?php if (!defined('FLUX_ROOT')) exit; ?>
-<?php if (!($params->get('module') == 'main' && $params->get('action') == 'index')) { ?>
+<?php if (!($params->get('module') === 'main' && $params->get('action') === 'index')) { ?>
 	</div>
 	</section>
 <?php } ?>
