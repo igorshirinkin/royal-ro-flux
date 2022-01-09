@@ -36,7 +36,7 @@
 	<link rel="stylesheet" href="<?php echo $this->themePath('css/choco_main.css') ?>">
 
 	<!-- script -->
-	<!-- <script src="<?php echo $this->themePath('js/modernizr.js') ?>"></script> -->
+	<script src="<?php echo $this->themePath('js/modernizr.js') ?>"></script>
 	<script src="<?php echo $this->themePath('js/pace.min.js') ?>"></script>
 
 </head>
