@@ -116,7 +116,6 @@
 				<!-- Page menu -->
 				<?php include $this->themePath('main/pagemenu.php', true) ?>
 
-
 				<!-- Credit balance -->
 				<?php //if (in_array($params->get('module'), array('donate', 'purchase'))) include 'main/balance.php'
 				?>

@@ -55,7 +55,7 @@ if ($session->isLoggedIn()) {
 }
 
 #display to user who not login
-if (!($params->get('module') == 'main' && $params->get('action') == 'index')) {
+if (!($params->get('module') === 'main' && $params->get('action') === 'index')) {
 	$config['div_class'] = array(
 		'div_value' => 'mymain2',
 	);
@@ -65,7 +65,7 @@ if (!($params->get('module') == 'main' && $params->get('action') == 'index')) {
 	);
 }
 
-if (!($params->get('module') == 'main' && $params->get('action') == 'index')) {
+if (!($params->get('module') === 'main' && $params->get('action') === 'index')) {
 	$config['nav_index'] = array(
 		array(
 			'',
