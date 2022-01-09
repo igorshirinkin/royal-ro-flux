@@ -82,14 +82,20 @@ if (!($params->get('module') === 'main' && $params->get('action') === 'index')) 
 		array(
 			'',
 			'',
-			$this->url('pages', 'staff'),
+			$this->url('staff'),
 			'Staff',
 		),
 		array(
 			'',
 			'',
-			$this->url('pages', 'information'),
+			$this->url('information'),
 			'Информация о сервере',
+		),
+		array(
+			'',
+			'',
+			$this->url('download'),
+			'Загрузить клиент',
 		),
 	);
 } else {
