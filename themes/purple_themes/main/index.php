@@ -11,6 +11,9 @@ include $this->themePath('src/status.php', true);
 		<?php foreach ($serverStatus as $privServerName => $gameServers) : ?>
 			<?php foreach ($gameServers as $serverName => $gameServer) : ?>
 
+				<?php print_r($loginServerUp);
+				die; ?>
+
 				<div class="row contents">
 					<div class="home-content-left">
 
