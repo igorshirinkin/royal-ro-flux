@@ -215,7 +215,7 @@
 
 <script type="text/javascript" src="<?php echo $this->themePath('js/flux.datefields.js') ?>"></script>
 <script type="text/javascript" src="<?php echo $this->themePath('js/flux.unitip.js') ?>"></script>
-<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 <!-- Java Script -->
 <script src="<?php echo $this->themePath('js/jquery-2.1.3.min.js') ?>"></script>
