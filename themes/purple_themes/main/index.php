@@ -11,9 +11,6 @@ include $this->themePath('src/status.php', true);
 		<?php foreach ($serverStatus as $privServerName => $gameServers) : ?>
 			<?php foreach ($gameServers as $serverName => $gameServer) : ?>
 
-				<?php print_r($loginServerUp);
-				die; ?>
-
 				<div class="row contents">
 					<div class="home-content-left">
 
@@ -49,7 +46,7 @@ include $this->themePath('src/status.php', true);
 							</div>
 							<div class="level-item">
 								<?php
-								if ($charServer) {
+								if ($charServerUp) {
 									$charServer     = "Char Server работает!";
 									$charIcon 	    = "img/check.png";
 									$charText 	    = "has-text-success";
@@ -68,7 +65,7 @@ include $this->themePath('src/status.php', true);
 							</div>
 							<div class="level-item">
 								<?php
-								if ($mapServer) {
+								if ($mapServerUp) {
 									$mapServer     = "Map Server работает!";
 									$mapIcon 	   = "img/check.png";
 									$mapText 	   = "has-text-success";
