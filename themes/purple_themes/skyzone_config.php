@@ -73,12 +73,12 @@ if (!($params->get('module') === 'main' && $params->get('action') === 'index')) 
 			$this->url('main'),
 			'Главная',
 		),
-		array(
-			'',
-			' ',
-			$this->url('donate'),
-			'Пожертвования',
-		),
+		// array(
+		// 	'',
+		// 	' ',
+		// 	$this->url('donate'),
+		// 	'Пожертвования',
+		// ),
 		array(
 			'',
 			'',
@@ -106,18 +106,18 @@ if (!($params->get('module') === 'main' && $params->get('action') === 'index')) 
 			'#information',
 			'О сервере',
 		),
-		array(
-			'',
-			'smoothscroll',
-			'#donation',
-			'Пожертвования',
-		),
-		array(
-			'',
-			'smoothscroll',
-			'#shop',
-			'Магазин',
-		),
+		// array(
+		// 	'',
+		// 	'smoothscroll',
+		// 	'#donation',
+		// 	'Пожертвования',
+		// ),
+		// array(
+		// 	'',
+		// 	'smoothscroll',
+		// 	'#shop',
+		// 	'Магазин',
+		// ),
 		array(
 			'',
 			'smoothscroll',
