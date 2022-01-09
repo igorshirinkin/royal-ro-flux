@@ -2,7 +2,7 @@
 <?php require_once(FLUX_THEME_DIR . "/purple_themes/skyzone_config.php"); ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
 	<meta charset="utf-8">
