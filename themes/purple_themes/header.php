@@ -34,7 +34,6 @@
 	<link rel="stylesheet" href="<?php echo $this->themePath('css/base.css') ?>">
 	<link rel="stylesheet" href="<?php echo $this->themePath('css/vendor.css') ?>">
 	<link rel="stylesheet" href="<?php echo $this->themePath('css/choco_main.css') ?>">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<!-- script -->
 	<script src="<?php echo $this->themePath('js/modernizr.js') ?>"></script>
