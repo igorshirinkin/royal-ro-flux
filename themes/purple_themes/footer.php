@@ -73,7 +73,7 @@
 		<div class="row">
 			<div class="col-twelve">
 				<div class="copyright">
-					<span>Copyright <?php echo date("Y"); ?> &copy; Gravity Co., Ltd. & Lee Myoungjin (Studio DTDS) All Rights Reserved.</span><br>
+					<span>Copyright 2022 - <?php echo date("Y"); ?> &copy; Gravity Co., Ltd. & Lee Myoungjin (Studio DTDS) All Rights Reserved.</span><br>
 					<span>Copyright &copy; 2021 - <?php echo date("Y"); ?> Royal Ragnarok.</span><br>
 					<span>Неофициальный сервер Ragnarok Online.</span>
 					<p class="text-muted">
