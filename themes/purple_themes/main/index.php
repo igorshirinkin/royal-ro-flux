@@ -8,28 +8,21 @@ include $this->themePath('src/status.php', true);
 	<div class="overlay"></div>
 	<div class="home-content">
 
-		<div class="row contents">
-			<div class="home-content-left">
+		<?php foreach ($serverStatus as $privServerName => $gameServers) : ?>
+			<?php foreach ($gameServers as $serverName => $gameServer) : ?>
 
-				<h3 data-aos="fade-up" class=" text-center">
-					<?php echo $config['server_sub_intro']; ?> |
-					<span>Online Player: <?php echo number_format($config['online'][0]); ?></span>
-				</h3>
+				<div class="row contents">
+					<div class="home-content-left">
 
-				<div class="level-item">
-					<span class="has-text-white">
-						<?php if ($gameServer['playersOnline'] > 0) : ?>
-							Игроков в сети:
-							<span class="counter_online"><?php echo $gameServer['playersOnline'] ?></span>
-						<?php else : ?>
-							Игроков в сети:
-							<span class="counter_offline"><?php echo $gameServer['playersOnline'] ?></span>
-						<?php endif; ?>
-					</span>
-				</div>
+						<h3 data-aos="fade-up" class=" text-center">
+							<?php echo $config['server_sub_intro']; ?> |
+							<?php if ($gameServer['playersOnline'] > 0) : ?>
+								<span class="counter_online">Online Player: <?php echo $gameServer['playersOnline']; ?></span>
+							<?php else : ?>
+								<span class="counter_offline">Online Player: <?php echo $gameServer['playersOnline']; ?></span>
+							<?php endif; ?>
+						</h3>
 
-				<?php foreach ($serverStatus as $privServerName => $gameServers) : ?>
-					<?php foreach ($gameServers as $serverName => $gameServer) : ?>
 						<nav class="level" data-aos="fade-up">
 							<div class="level-item">
 								<?php
@@ -53,7 +46,7 @@ include $this->themePath('src/status.php', true);
 							</div>
 							<div class="level-item">
 								<?php
-								if ($loginServerUp) {
+								if ($charServer) {
 									$charServer     = "Char Server работает!";
 									$charIcon 	    = "img/check.png";
 									$charText 	    = "has-text-success";
@@ -72,7 +65,7 @@ include $this->themePath('src/status.php', true);
 							</div>
 							<div class="level-item">
 								<?php
-								if ($loginServerUp) {
+								if ($mapServer) {
 									$mapServer     = "Map Server работает!";
 									$mapIcon 	   = "img/check.png";
 									$mapText 	   = "has-text-success";
@@ -133,12 +126,12 @@ include $this->themePath('src/status.php', true);
 					</a>
 				</div>
 
-			</div>
+					</div>
 
-			<div class="home-image-right">
-				<img src="<?php echo $this->themePath('images/iphone-app-470.png'); ?>" srcset="<?php echo $this->themePath('images/iphone-app-470.png'); ?> 1x, <?php echo $this->themePath('images/iphone-app-940.png'); ?> 2x" data-aos="fade-up">
-			</div>
-		</div>
+					<div class="home-image-right">
+						<img src="<?php echo $this->themePath('images/iphone-app-470.png'); ?>" srcset="<?php echo $this->themePath('images/iphone-app-470.png'); ?> 1x, <?php echo $this->themePath('images/iphone-app-940.png'); ?> 2x" data-aos="fade-up">
+					</div>
+				</div>
 
 	</div> <!-- end home-content -->
 
