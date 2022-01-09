@@ -195,7 +195,7 @@ return array(
 	'CpChangeLogShowPassword'	=> false,					// Show password in CP "password changes" log (also see access.php's SeeCpChangePass).
 
 	'AdminMenuNewStyle'			=> true,					// Use new-style admin menu;  Applies to 'default' theme.
-	'EnablePeakDisplay'			=> true,					// Display Peak User count on Server Status page.
+	'EnablePeakDisplay'			=> false,					// Display Peak User count on Server Status page.
 
 
 	// News Options
