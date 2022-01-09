@@ -34,8 +34,6 @@
 	<link rel="stylesheet" href="<?php echo $this->themePath('css/vendor.css') ?>">
 	<link rel="stylesheet" href="<?php echo $this->themePath('css/main.css') ?>">
 	<link rel="stylesheet" href="<?php echo $this->themePath('css/choco_main.css') ?>">
-	<link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-
 
 	<!-- script -->
 	<script src="<?php echo $this->themePath('js/modernizr.js') ?>"></script>
@@ -44,7 +42,7 @@
 </head>
 
 <body id="top">
-	<i class="fa fa-bomb fa-5x"></i>
+	<i class="test"></i>
 
 	<!-- Fixed navbar -->
 	<?php //include $this->themePath('main/navbar.php', true)
