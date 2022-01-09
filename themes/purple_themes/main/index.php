@@ -95,18 +95,6 @@
 									</span>
 								</div>
 							</div>
-							<!-- online -->
-							<div class="level-item">
-								<span class="has-text-white">
-									<?php if ($gameServer['playersOnline'] > 0) : ?>
-										Игроков в сети:
-										<span class="counter_online"><?php echo $gameServer['playersOnline'] ?></span>
-									<?php else : ?>
-										Игроков в сети:
-										<span class="counter_offline"><?php echo $gameServer['playersOnline'] ?></span>
-									<?php endif; ?>
-								</span>
-							</div>
 
 							<?php if (Flux::config('EnablePeakDisplay')) : ?>
 								<!-- peak -->
