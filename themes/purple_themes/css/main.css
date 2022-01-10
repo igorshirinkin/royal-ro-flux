@@ -41,12 +41,6 @@ html {
   font-size: 10px;
 }
 
-em,
-i,
-dfn {
-  font-style: italic !important;
-}
-
 @media only screen and (max-width: 1024px) {
   html {
     font-size: 9.375px;
