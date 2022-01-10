@@ -43,12 +43,6 @@
 
 <body id="top">
 
-	<!-- uses solid style -->
-	<i class="far fa-user"></i> <!-- uses regular style -->
-	<i class="fal fa-user"></i> <!-- uses light style -->
-	<!--brand icon-->
-	<i class="fab fa-github-square"></i> <!-- uses brands style -->
-
 	<!-- Fixed navbar -->
 	<?php //include $this->themePath('main/navbar.php', true)
 	?>
