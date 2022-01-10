@@ -36,16 +36,15 @@
 	<link rel="stylesheet" href="<?php echo $this->themePath('css/choco_main.css') ?>">
 
 	<!-- script -->
-	<script src="<?php //echo $this->themePath('js/modernizr.js') 
-					?>"></script>
-	<script src="<?php //echo $this->themePath('js/pace.min.js') 
-					?>"></script>
+	<script src="<?php echo $this->themePath('js/modernizr.js') ?>"></script>
+	<script src="<?php echo $this->themePath('js/pace.min.js') ?>"></script>
 
 </head>
 
 <body id="top">
 
-	<i class="fas fa-user"></i> <!-- uses solid style -->
+	<?php echo "<i class=far fa-user></i>"; ?>
+	<!-- uses solid style -->
 	<i class="far fa-user"></i> <!-- uses regular style -->
 	<i class="fal fa-user"></i> <!-- uses light style -->
 	<!--brand icon-->
