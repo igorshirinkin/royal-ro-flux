@@ -1,22 +1,20 @@
-/* =================================================================== 
+/* ===================================================================
  *
  *  Dazzle v1.0 Base Stylesheet
  *  04-27-2017
  *  ------------------------------------------------------------------
  *
  *  TOC:
- *  01. reset 
+ *  01. reset
  *  02. basic/base setup styles
  *  03. grid
  *  04. block grids
  *  05. MISC
  *
  * =================================================================== */
-
-
 /* ===================================================================
- *  01. reset  
- *  normalize.css v5.0.0 | MIT License | 
+ *  01. reset
+ *  normalize.css v5.0.0 | MIT License |
  *  github.com/necolas/normalize.css
  *
  * ------------------------------------------------------------------- */
@@ -77,7 +75,8 @@ a:hover {
   outline-width: 0;
 }
 
-abbr[title] {
+abbr[title
+] {
   border-bottom: none;
   text-decoration: underline;
   text-decoration: underline dotted;
@@ -134,7 +133,8 @@ video {
   display: inline-block;
 }
 
-audio:not([controls]) {
+audio:not([controls
+]) {
   display: none;
   height: 0;
 }
@@ -169,24 +169,33 @@ select {
 }
 
 button,
-html [type="button"],
-[type="reset"],
-[type="submit"] {
+html [type="button"
+],
+[type="reset"
+],
+[type="submit"
+] {
   -webkit-appearance: button;
 }
 
-button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
+button: :-moz-focus-inner,
+[type="button"
+]: :-moz-focus-inner,
+[type="reset"
+]: :-moz-focus-inner,
+[type="submit"
+]: :-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
 
 button:-moz-focusring,
-[type="button"]:-moz-focusring,
-[type="reset"]:-moz-focusring,
-[type="submit"]:-moz-focusring {
+[type="button"
+]:-moz-focusring,
+[type="reset"
+]:-moz-focusring,
+[type="submit"
+]:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 
@@ -214,30 +223,37 @@ textarea {
   overflow: auto;
 }
 
-[type="checkbox"],
-[type="radio"] {
+[type="checkbox"
+],
+[type="radio"
+] {
   box-sizing: border-box;
   padding: 0;
 }
 
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
+[type="number"
+]: :-webkit-inner-spin-button,
+[type="number"
+]: :-webkit-outer-spin-button {
   height: auto;
 }
 
-[type="search"] {
+[type="search"
+] {
   -webkit-appearance: textfield;
   outline-offset: -2px;
 }
 
-[type="search"]::-webkit-search-cancel-button,
-[type="search"]::-webkit-search-decoration {
+[type="search"
+]: :-webkit-search-cancel-button,
+[type="search"
+]: :-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-::-webkit-file-upload-button {
+: :-webkit-file-upload-button {
   -webkit-appearance: button;
-  font: inherit;
+  // font: inherit;
 }
 
 details,
@@ -257,11 +273,10 @@ template {
   display: none;
 }
 
-[hidden] {
+[hidden
+] {
   display: none;
 }
-
-
 /* ===================================================================
  *  02. basic/base setup styles - (_basic.scss)
  *
@@ -273,8 +288,8 @@ html {
 }
 
 *,
-*::before,
-*::after {
+*: :before,
+*: :after {
   box-sizing: inherit;
 }
 
@@ -293,9 +308,7 @@ button {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
-
-
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * Media - (_basic.scss)
  * ------------------------------------------------------------------- */
 
@@ -304,9 +317,7 @@ video {
   max-width: 100%;
   height: auto;
 }
-
-
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * Typography resets - (_basic.scss)
  * ------------------------------------------------------------------- */
 
@@ -347,9 +358,7 @@ ul {
 li {
   display: block;
 }
-
-
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * links - (_basic.scss)
  * ------------------------------------------------------------------- */
 
@@ -361,9 +370,7 @@ a {
 a img {
   border: none;
 }
-
-
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * inputs - (_basic.scss)
  * ------------------------------------------------------------------- */
 
@@ -372,13 +379,20 @@ fieldset {
   padding: 0;
 }
 
-input[type="email"],
-input[type="number"],
-input[type="search"],
-input[type="text"],
-input[type="tel"],
-input[type="url"],
-input[type="password"],
+input[type="email"
+],
+input[type="number"
+],
+input[type="search"
+],
+input[type="text"
+],
+input[type="tel"
+],
+input[type="url"
+],
+input[type="password"
+],
 textarea {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -386,8 +400,6 @@ textarea {
   -o-appearance: none;
   appearance: none;
 }
-
-
 /* ===================================================================
  *  03. grid - (_grid.scss)
  *
@@ -412,16 +424,20 @@ textarea {
   margin-right: -20px;
 }
 
-[class*="col-"],
+[class*="col-"
+],
 .bgrid {
   float: left;
 }
 
-[class*="col-"]+[class*="col-"].end {
+[class*="col-"
+]+[class*="col-"
+].end {
   float: right;
 }
 
-[class*="col-"] {
+[class*="col-"
+] {
   padding: 0 20px;
 }
 
@@ -480,9 +496,7 @@ textarea {
 .col-full {
   width: 100%;
 }
-
-
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * medium size devices - (_grid.scss)
  * ------------------------------------------------------------------- */
 
@@ -491,7 +505,8 @@ textarea {
     margin-left: -18px;
     margin-right: -18px;
   }
-  [class*="col-"] {
+  [class*="col-"
+  ] {
     padding: 0 18px;
   }
   .md-two,
@@ -539,9 +554,7 @@ textarea {
     width: 100%;
   }
 }
-
-
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * tablets - (_grid.scss)
  * ------------------------------------------------------------------- */
 
@@ -557,7 +570,8 @@ textarea {
     margin-left: -15px;
     margin-right: -15px;
   }
-  [class*="col-"] {
+  [class*="col-"
+  ] {
     padding: 0 15px;
   }
   .tab-1-4 {
@@ -579,9 +593,7 @@ textarea {
     width: 100%;
   }
 }
-
-
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  *  mobile devices - (_grid.scss)
  * ------------------------------------------------------------------- */
 
@@ -594,7 +606,8 @@ textarea {
     margin-left: -10px;
     margin-right: -10px;
   }
-  [class*="col-"] {
+  [class*="col-"
+  ] {
     padding: 0 10px;
   }
   .mob-1-4 {
@@ -616,9 +629,7 @@ textarea {
     width: 100%;
   }
 }
-
-
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * small mobile devices - (_grid.scss)
  * ------------------------------------------------------------------- */
 
@@ -629,7 +640,8 @@ textarea {
     margin-left: 0;
     margin-right: 0;
   }
-  [class*="col-"] {
+  [class*="col-"
+  ] {
     width: 100% !important;
     float: none !important;
     clear: both !important;
@@ -637,18 +649,18 @@ textarea {
     margin-right: 0;
     padding: 0;
   }
-  [class*="col-"]+[class*="col-"].end {
+  [class*="col-"
+  ]+[class*="col-"
+  ].end {
     float: none;
   }
 }
-
-
 /* ===================================================================
  *  04. block grids - (_grid.scss)
  *
  * ------------------------------------------------------------------- */
-
-[class*="block-"]:after {
+[class*="block-"
+]:after {
   content: "";
   display: table;
   clear: both;
@@ -673,10 +685,8 @@ textarea {
 .block-1-2 .bgrid {
   width: 50%;
 }
-
-
 /**
- * Clearing for block grid columns. Allow columns with 
+ * Clearing for block grid columns. Allow columns with
  * different heights to align properly.
  */
 
@@ -687,9 +697,7 @@ textarea {
 .block-1-2 .bgrid:nth-child(2n+1) {
   clear: both;
 }
-
-
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * medium size devices - (_grid.scss)
  * ------------------------------------------------------------------- */
 
@@ -713,7 +721,8 @@ textarea {
     width: 100%;
     clear: both;
   }
-  [class*="block-m-"] .bgrid:nth-child(n) {
+  [class*="block-m-"
+  ] .bgrid:nth-child(n) {
     clear: none;
   }
   .block-m-1-6 .bgrid:nth-child(6n+1),
@@ -724,9 +733,7 @@ textarea {
     clear: both;
   }
 }
-
-
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * tablets - (_grid.scss)
  * ------------------------------------------------------------------- */
 
@@ -750,7 +757,8 @@ textarea {
     width: 100%;
     clear: both;
   }
-  [class*="block-tab-"] .bgrid:nth-child(n) {
+  [class*="block-tab-"
+  ] .bgrid:nth-child(n) {
     clear: none;
   }
   .block-tab-1-6 .bgrid:nth-child(6n+1),
@@ -761,9 +769,7 @@ textarea {
     clear: both;
   }
 }
-
-
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * mobile devices - (_grid.scss)
  * ------------------------------------------------------------------- */
 
@@ -787,7 +793,8 @@ textarea {
     width: 100%;
     clear: both;
   }
-  [class*="block-mob-"] .bgrid:nth-child(n) {
+  [class*="block-mob-"
+  ] .bgrid:nth-child(n) {
     clear: none;
   }
   .block-mob-1-6 .bgrid:nth-child(6n+1),
@@ -798,9 +805,7 @@ textarea {
     clear: both;
   }
 }
-
-
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * stack on small mobile devices - (_grid.scss)
  * ------------------------------------------------------------------- */
 
@@ -813,8 +818,6 @@ textarea {
     margin-right: 0;
   }
 }
-
-
 /* ===================================================================
  *  05. MISC  - (_grid.scss)
  *
@@ -825,8 +828,6 @@ textarea {
   display: table;
   clear: both;
 }
-
-
 /* Misc Helper Styles */
 
 .is-hidden {
@@ -891,6 +892,4 @@ textarea {
   margin-right: auto;
   text-align: center;
 }
-
-
 /*# sourceMappingURL=base.css.map */
