@@ -253,7 +253,7 @@ textarea {
 
 : :-webkit-file-upload-button {
   -webkit-appearance: button;
-  // font: inherit;
+  font: inherit;
 }
 
 details,
