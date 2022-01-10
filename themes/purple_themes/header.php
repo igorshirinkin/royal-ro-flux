@@ -17,36 +17,27 @@
 	<title><?php echo Flux::config('SiteTitle');
 			if (isset($title)) echo ": $title" ?></title>
 
-	<link href="/fontawesome/css/all.css" rel="stylesheet">
-
 	<!-- favicons -->
 	<link rel="shortcut icon" href="<?php echo $this->themePath('favicon.ico') ?>" type="image/x-icon">
 	<link rel="icon" href="<?php echo $this->themePath('favicon.ico') ?>" type="image/x-icon">
 
-	<link rel="stylesheet" href="<?php //echo $this->themePath('css/flux.css') 
-									?>" type="text/css" media="screen" title="" charset="utf-8" />
-	<link href="<?php //echo $this->themePath('css/flux/unitip.css') 
-				?>" rel="stylesheet" type="text/css" media="screen" title="" charset="utf-8" />
+	<link rel="stylesheet" href="<?php echo $this->themePath('css/flux.css') ?>" type="text/css" media="screen" title="" charset="utf-8" />
+	<link href="<?php echo $this->themePath('css/flux/unitip.css') ?>" rel="stylesheet" type="text/css" media="screen" title="" charset="utf-8" />
 	<?php if (Flux::config('EnableReCaptcha')) : ?>
 		<script src='https://www.google.com/recaptcha/api.js'></script>
 	<?php endif ?>
 
-	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="<?php echo $this->themePath('css/main.css') ?>">
-	<link rel="stylesheet" href="<?php //echo $this->themePath('css/base.css')
-									?>">
-	<link rel="stylesheet" href="<?php //echo $this->themePath('css/vendor.css')
-									?>">
-	<link rel="stylesheet" href="<?php //echo $this->themePath('css/choco_main.css')
-									?>">
+	<link rel="stylesheet" href="<?php echo $this->themePath('css/base.css') ?>">
+	<link rel="stylesheet" href="<?php echo $this->themePath('css/vendor.css') ?>">
+	<link rel="stylesheet" href="<?php echo $this->themePath('css/choco_main.css') ?>">
 
 	<!-- script -->
-	<script src="<?php //echo $this->themePath('js/modernizr.js')
-					?>"></script>
-	<script src="<?php //echo $this->themePath('js/pace.min.js')
-					?>"></script>
+	<script src="<?php echo $this->themePath('js/modernizr.js') ?>"></script>
+	<script src="<?php echo $this->themePath('js/pace.min.js') ?>"></script>
 
 </head>
 
